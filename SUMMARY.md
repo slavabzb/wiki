@@ -16,5 +16,5 @@
 * [Idempotency](programming/idempotency.md)
 * [Load Testing](programming/load-testing/README.md)
   * [Hey](programming/load-testing/hey.md)
-* [Awesome Personal Websites](awesome-personal-websites.md)
+* [Awesome Personal Websites](programming/awesome-personal-websites.md)
 

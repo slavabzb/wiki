@@ -13,5 +13,3 @@
 * If you miss a meeting, you agree with its results.
 * We can add rules as we go.
 
-
-
