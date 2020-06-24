@@ -12,9 +12,14 @@
 
 ## Programming
 
+* [Concurrency](programming/concurrency.md)
 * [Database](programming/database.md)
 * [Idempotency](programming/idempotency.md)
 * [Load Testing](programming/load-testing/README.md)
   * [Hey](programming/load-testing/hey.md)
-* [Awesome Personal Websites](programming/awesome-personal-websites.md)
+
+## Other
+
+* [Graphics](other/graphics.md)
+* [Awesome Personal Websites](other/awesome-personal-websites.md)
 
