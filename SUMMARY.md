@@ -13,7 +13,8 @@
 ## Programming
 
 * [Concurrency](programming/concurrency.md)
-* [Database](programming/database.md)
+* [Database](programming/database/README.md)
+  * [SQL](programming/database/sql.md)
 * [Idempotency](programming/idempotency.md)
 * [Load Testing](programming/load-testing/README.md)
   * [Hey](programming/load-testing/hey.md)
