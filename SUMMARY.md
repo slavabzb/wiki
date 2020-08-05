@@ -24,3 +24,7 @@
 * [Graphics](other/graphics.md)
 * [Awesome Personal Websites](other/awesome-personal-websites.md)
 
+## Books
+
+* [Domain-Driven Design](books/domain-driven-design.md)
+
