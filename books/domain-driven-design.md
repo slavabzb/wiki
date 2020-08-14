@@ -147,3 +147,9 @@ For each type of object that need global access, create an object that can provi
 
 ### Seven. Using the Language: An Extended Example
 
+## III: Refactoring Toward Deeper Insight
+
+### Eight. Breakthrough
+
+### Nine. Making Implicit Concepts Explicit
+
