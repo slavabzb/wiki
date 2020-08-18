@@ -157,3 +157,19 @@ Many transformations of domain models and the corresponding code happen when dev
 
 Listen to the language the domain experts use. Are there terms that succinctly state something complicated? Are they correcting your word choice \(perhaps diplomatically\)? Do the puzzled looks on their faces go away when you use a particular phrase? These are hints of a concept that might benefit the model.
 
+#### Specification
+
+Business rules often do not fit the responsibility of any of the obvious ENTITIES or VALUE OBJECTS, and their variety and combinations can overwhelm the basic meaning of the domain object. But moving the rules out of the domain layer is even worse, since the domain code no longer expresses the model.
+
+Logic programming provides the concept of separate, combinable, rule objects called "predicates", but full implementation of this concept with objects is cumbersome. It's also so general that it doesn't communicate intent as much as more specialized designs.
+
+Create explicit predicate-like VALUE OBJECTS for specialized purposes. A SPECIFICATION is a predicate that determines if an object does or does not satisfy some criteria.
+
+We might need to specify the state of an object for one or more of these three purposes.
+
+1. To validate an object to see if it fulfills some need or is ready for some purpose \(**validation**\).
+2. To select an object from a collection \(**selection** or **querying**\).
+3. To specify the creation of a new object to fit some need \(**building to order** or **generating**\).
+
+### Ten. Supple Design
+
