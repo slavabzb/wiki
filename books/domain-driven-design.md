@@ -173,3 +173,17 @@ We might need to specify the state of an object for one or more of these three p
 
 ### Ten. Supple Design
 
+#### Intention-Revealing Interfaces
+
+If a developer must consider the implementation of a component in order to use it, the value of encapsulation is lost. If someone other than the original developer must infer the purpose of an object or operation based on its implementation, that new developer may infer a purpose that the operation or class fulfills only by chance. If that was not the intent, the code may work for the moment, but the conceptual basis of the design will have been corrupted, and the two developers will be working at cross-purposes.
+
+Name classes and operations to describe their effect and purpose, without reference to the means by which they do what they promise. This relieves the client developer of the need to understand the internals. These names should conform to the UBIQUITOUS LANGUAGE so that team members can quickly infer their meaning. Write a test for a behaviour before creating it, to force your thinking into client developer mode.
+
+#### Side-Effect-Free Functions
+
+Interactions of multiple rules or compositions of calculations become extremely difficult to predict. The developer calling an operation must understand its implementation and the implementation of all its delegations in order to anticipate the result. The usefulness of any abstraction of interfaces is limited if the developers are forced to pierce the veil. Without safely predictable abstractions, the developers must limit the combinatory explosion, placing a low ceiling on the richness of behaviour that is feasible to build.
+
+Place as much of the logic of the program as possible into functions, operations that return results with no observable side effects. Strictly segregate commands \(methods that result in modifications to observable state\) into very simple operations that do not return domain information. Further control side effects by moving complex logic into VALUE OBJECTS when a concept fitting the responsibility presents itself.
+
+#### Assertions
+
