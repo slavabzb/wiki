@@ -203,3 +203,15 @@ Decompose design elements \(operations, interfaces, classes, and AGGREGATES\) in
 
 #### Standalone Classes
 
+Even within a MODULE, the difficulty of interpreting a design increases wildly as dependencies are added. This adds to mental overload, limiting the design complexity a developer can handle. Implicit concepts contribute to this load even more than explicit references.
+
+Low coupling is fundamental to object design. When you can, go all the way. Eliminate _all_ other concepts from the picture. Then the class will be completely self-contained and can be studied and understood alone. Every such self-contained class significantly eases the burden of understanding a MODULE.
+
+#### Closure of Operations
+
+Most interesting objects end up doing things that can't be characterized by primitives alone.
+
+Where it fits, define an operation whose return type is the same as the type of its argument\(s\). If the implementer has state that is used in the computation, then the implementer is effectively an argument of the operation, so the argument\(s\) and return value should be of the same type as the implementer. Such an operation is closed under the set of instances of that type. A closed operation provides a high-level interface without introducing any dependency on other concepts.
+
+### Eleven. Applying Analysis Patterns
+
