@@ -21,6 +21,7 @@
 
 ## Other
 
+* [Video](other/video.md)
 * [Graphics](other/graphics.md)
 * [Awesome Personal Websites](other/awesome-personal-websites.md)
 
