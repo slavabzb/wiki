@@ -12,6 +12,7 @@
 
 ## Programming
 
+* [SOLID](programming/solid.md)
 * [Concurrency](programming/concurrency.md)
 * [Database](programming/database/README.md)
   * [SQL](programming/database/sql.md)
