@@ -215,3 +215,25 @@ Where it fits, define an operation whose return type is the same as the type of 
 
 ### Eleven. Applying Analysis Patterns
 
+### Twelve. Relating Design Patterns to the Model
+
+#### Strategy \(a.k.a. Policy\)
+
+Domain models contain processes that are not technically motivated but actually meaningful in the problem domain. When alternative processes must be provided, the complexity of choosing the appropriate process combines with the complexity of the multiple processes themselves, and things get out of hand.
+
+Factor the varying part of a process into a separate "strategy" object in the model. Factor apart a rule and the behavior it governs. Implement the rule or substitutable process following the STRATEGY design pattern. Multiple versions of the strategy object represent different ways the process can be done.
+
+#### Composite
+
+When the relatedness of nested containers is not reflected in the model, common behavoir has to be duplicated at each level of the hierarchy, and nesting is rigid \(for example, containers can't usually contain other containers at their own level, and the number of levels is fixed\). Clients must deal with different levels of the hierarchy through different interfaces, even though there may be no conceptual difference they care about. Recursion through the hierarchy to produce aggregated information is very complicated.
+
+Define an abstract type that encompasses all members of the COMPOSITE. Methods that return information are implemented on containers to return aggregated information about their contents. "Leaf" nodes implement those methods based on their own values. Clients deal with the abstract type and have no need to distinguish leaves from containers.
+
+### Thirteen. Refactoring Toward Deeper Insight
+
+## IV: Strategic Design
+
+### Fourteen. Maintaining Model Integrity
+
+Total unification of the domain model for a large system will not be feasible or cost-effective.
+
