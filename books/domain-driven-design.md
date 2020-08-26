@@ -237,3 +237,25 @@ Define an abstract type that encompasses all members of the COMPOSITE. Methods t
 
 Total unification of the domain model for a large system will not be feasible or cost-effective.
 
+#### Bounded Context
+
+Multiple models are in play on any large project. Yet when code based on distinct models is combined, software becomes buggy, unreliable, and difficult to understand. Communication among team members becomes confused. It is often unclear in what context a model should _not_ be applied.
+
+Explicitly define the context within which a model applies. Explicitly set boundaries in terms of team organization, usage within specific parts of the application, and physical manifestations such as code bases and database schemas. Keep the model strictly consistent within these bounds, but don't be distracted or confused by issues outside.
+
+#### Continuous Integration
+
+When a number of people are working in the same BOUNDED CONTEXT, there is a strong tendency for the model to fragment. The bigger the team, the bigger the problem, but as few as three or four people can encounter serious problems. Yet breaking down the system into ever-smaller CONTEXTS eventually loses a valuable level of integration and coherency.
+
+Institute a process of merging all code and other implementation artifacts frequently, with automated tests to flag fragmentation quickly. Relentlessly exercise the UBIQUITOUS LANGUAGE to hammer out a shared view of the model as the concepts evolve in different people's heads.
+
+#### Context Map
+
+People on other teams won't be very aware of the CONTEXT bounds and will unknowingly make changes that blur the edges or complicate the interconnections. When connections must be made between different contexts, they tend to bleed into each other.
+
+Identify each model in play on the project and define its BOUNDED CONTEXT. This includes the implicit models of non-object-oriented subsystems. Name each BOUNDED CONTEXT, and make the names part of the UBIQUITOUS LANGUAGE.
+
+Describe the points of contact between the models, outlining explicit translation for any communication and highlighting any sharing.
+
+Map the _existing_ terrain. Take up transformations later.
+
