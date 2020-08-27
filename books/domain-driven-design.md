@@ -259,3 +259,11 @@ Describe the points of contact between the models, outlining explicit translatio
 
 Map the _existing_ terrain. Take up transformations later.
 
+#### Shared Kernel
+
+Uncoordinated teams working on closely related applications can go racing forward for a while, but what they produce may not fit together. They can end up spending more on translation layers and retrofitting than they would have on CONTINUOUS INTEGRATION in the first place, meanwhile duplicating effort and losing the benefits of a common UBIQUITOUS LANGUAGE.
+
+Designate some subset of the domain model that the two teams agree to share. Of course this includes, along with this subset of the model, the subset of code or of the database design associated with that part of the model. This explicitly shared stuff has special status, and shouldn't be changed without consultation with the other team.
+
+Integrate a functional system frequently, but somewhat less often then the pace of CONTINUOUS INTEGRATION within the teams. At these integrations, run the tests of both teams.
+
