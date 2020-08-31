@@ -289,3 +289,7 @@ Create an isolating layer to provide clients with functionality in terms of thei
 
 #### Separate Ways
 
+Integration is always expensive. Sometimes the benefit is small.
+
+Declare a BOUNDED CONTEXT to have no connection to the others at all, allowing developers to find simple, specialized solutions within this small scope.
+
