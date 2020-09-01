@@ -305,3 +305,5 @@ Direct translation to and from the existing domain models may not be a good solu
 
 Use a well-documented shared language that can express the necessary domain information as a common medium of communication, translating as necessary into and out of that language.
 
+### Fifteen. Distillation
+
