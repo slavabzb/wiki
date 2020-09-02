@@ -315,5 +315,13 @@ The harsh reality is that not all parts of the design are going to be equally re
 
 Boil the model down. Find the CORE DOMAIN and provide a means of easily distinguishing it from the mass of supporting model and code. Bring the most valuable and specialized concepts into sharp relief. Make the CORE small.
 
-Apply top talent to the CORE DOMAIN, and recruit accordingly. Spend the effort in the CORE to find a deep model and develop a supple design – sufficient to fullfill the vision of the system. Justify investment in any other part by how it supports the distilled CORE. 
+Apply top talent to the CORE DOMAIN, and recruit accordingly. Spend the effort in the CORE to find a deep model and develop a supple design – sufficient to fullfill the vision of the system. Justify investment in any other part by how it supports the distilled CORE.
+
+#### Generic Subdomains
+
+Some parts of the model add complexity without capturing or communicating specialized knowledge. Anything extraneous makes the CORE DOMAIN harder to discern and understand. The model clogs up with general principles everyone knows or details that belong to specialties which are not your primary focus but play a supporting role. Yet, however generic, these other elements are essential to the functioning of the system and the full expression of the model.
+
+Identify cohesive subdomains that are not the motivation for your project. Factor out generic models of these subdomains and place them in separate MODULES. Leave no trace of your specialties in them.
+
+Once they have been separated, give their continuing development lower priority than the CORE DOMAIN, and avoid assigning your core developers to the tasks \(because they will gain little domain knowledge from them\). Also consider off-the-shelf solutions or published models for these GENERIC SUBDOMAINS.
 
