@@ -351,5 +351,11 @@ Partition a conceptually COHESION MECHANISM into a separate lightweight framewor
 
 Elements in the model may partially serve the CORE DOMAIN and partially play supporting roles. CORE elements may be tightly coupled to generic ones. The conceptual cohesion of the CORE may not be strong or visible. All this clutter and entanglement chokes the CORE. Designers can't clearly see the most important relationships, leading to a weak design.
 
-Refactor the model to separate the CORE concepts from supporting players \(including ill-defined ones\) and strengthen the cohesion of the CORE while reducing its coupling to other code.
+Refactor the model to separate the CORE concepts from supporting players \(including ill-defined ones\) and strengthen the cohesion of the CORE while reducing its coupling to other code. Factor all generic or supporting elements into other objects and place them into other packages, even if this means refactoring the model in ways that separate highly coupled elements.
+
+#### Abstract Core
+
+When there is a lot of interaction between subdomains in separate MODULES, either many references will have to be created between MODULES, which defeats much of the value of the partitioning, or the interaction will have to be made indirect, which makes the model obscure.
+
+Identify the most fundamental concepts in the model and factor them into distinct classes, abstract classes, or interfaces. Design this abstract model so that it expresses most of the interaction between significant components. Place this abstract overall model in its own MODULE, while the specialized, detailed implementation classes are left in their own MODULES defined by subdomain.
 
