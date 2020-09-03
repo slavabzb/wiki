@@ -347,3 +347,9 @@ Computations sometimes reach a level of complexity that begins to bloat the desi
 
 Partition a conceptually COHESION MECHANISM into a separate lightweight framework. Particularly watch for formalisms or well-documented categories of algorithms. Expose the capabilities of the framework with an INTENTION-REVEALING INTERFACE. Now the other elements of the domain can focus on expressing the problem \("what"\), delegating the intricacies of the solution \("how"\) to the framework.
 
+#### Segregated Core
+
+Elements in the model may partially serve the CORE DOMAIN and partially play supporting roles. CORE elements may be tightly coupled to generic ones. The conceptual cohesion of the CORE may not be strong or visible. All this clutter and entanglement chokes the CORE. Designers can't clearly see the most important relationships, leading to a weak design.
+
+Refactor the model to separate the CORE concepts from supporting players \(including ill-defined ones\) and strengthen the cohesion of the CORE while reducing its coupling to other code.
+
