@@ -363,3 +363,9 @@ Identify the most fundamental concepts in the model and factor them into distinc
 
 Although a breakthrough to a deep model provides value anywhere it happens, it is in the CORE DOMAIN that it can change the trajectory of an entire project.
 
+### Sixteen. Large-Scale Structure
+
+In a large system without any overarching principle that allows elements to be interpreted in terms of their role in patterns that span the whole design, developers cannot see the forest for the trees.
+
+Devise a pattern of rules or roles and relationships that will span the entire system and that allows some understanding of each part's place in the whole – even without detailed knowledge of the part's responsibility.
+
