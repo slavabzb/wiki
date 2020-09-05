@@ -395,3 +395,9 @@ In an application in which the roles and relationships between ENTITIES vary in 
 
 Create a distinct set of objects that can be used to describe and constrain the structure and behavior of the basic model. Keep these concerns separate as two "levels", one very concrete, the other reflecting rules and knowledge that a user or superuser is able to customize.
 
+#### Pluggable Component Framework
+
+When a variety of applications have to interoperate, all based on the same abstractions but designed independently, translations between multiple BOUNDED CONTEXTS limit integration. A SHARED KERNEL is not feasible for teams that do not work closely together. Duplication and fragmentation raise costs for development and installation, and interoperability becomes very difficult.
+
+Distill an ABSTRACT CORE of interfaces and interactions and create a framework that allows diverse implementations of those interfaces to be freely substituted. Likewise, allow any application to use those components, so long as it operates strictly through the interfaces of the ABSTRACT CORE.
+
