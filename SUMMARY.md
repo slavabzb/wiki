@@ -10,6 +10,10 @@
   * [The Planning](team/remote-team/the-planning.md)
   * [Retro](team/remote-team/retro.md)
 
+## Books
+
+* [Domain-Driven Design](books/domain-driven-design.md)
+
 ## Programming
 
 * [SOLID](programming/solid.md)
@@ -25,8 +29,4 @@
 * [Video](other/video.md)
 * [Graphics](other/graphics.md)
 * [Awesome Personal Websites](other/awesome-personal-websites.md)
-
-## Books
-
-* [Domain-Driven Design](books/domain-driven-design.md)
 
