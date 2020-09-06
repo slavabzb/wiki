@@ -4,7 +4,7 @@ description: Eric Evans
 
 # Domain-Driven Design
 
-## I: Putting the Domain Model to Work
+## Putting the Domain Model to Work
 
 Every software program relates to some activity or interest of its user. That subject area to which the user applies the program is the _**domain**_ of the software.
 
@@ -16,7 +16,7 @@ The utility of a model in DDD.
 * The model is the backbone of a language used by all team members.
 * The model is distilled knowledge.
 
-### One. Crunching Knowledge
+### Crunching Knowledge
 
 Ingredients of effective modelling.
 
@@ -26,7 +26,7 @@ Ingredients of effective modelling.
 * Distilling the model.
 * Brainstorming and experimenting.
 
-### Two. Communication and the Use of Language
+### Communication and the Use of Language
 
 A project faces serious problems when its language is fractured. Domain experts use their jargon while technical team have their own language tuned for discussing the domain in terms of design.
 
@@ -46,7 +46,7 @@ Domain experts should object to terms or structures that are awkward or inadequa
 
 Play with the model as you talk about the system. Describe scenarios out loud using the elements and interactions of the model, combining concepts in ways allowed by the model. Find easier ways to say what you need to say, and then take those new ideas back down to the diagrams and code.
 
-### Three. Binding Model and Implementation
+### Binding Model and Implementation
 
 If the design, or some central part of it, does not map to the document model, that model is of little value, and the correctness of the software is suspect. At the same time, complex mappings between models and design functions are difficult to understand and, in practice, impossible to maintain as the design changes. A deadly divide opens between analysis and design so that insight gained in each of those activities does not feed into the other.
 
@@ -60,9 +60,9 @@ If the people who write the code do not feel responsible for the model, or don't
 
 Any technical person contributing to the model must spend some time touching the code, whatever primary role he or she plays on the project. Anyone responsible for changing code must learn to express a model through the code. Every developer must be involved in some level of discussion about the model and have contact with domain experts. Those who contribute in different ways must consciously engage those who touch the code in dynamic exchange of model ideas through the UBIQUITOUS LANGUAGE.
 
-## II: The Building Blocks of a Domain-Driven Design
+## The Building Blocks of a Domain-Driven Design
 
-### Four. Isolating the Domain
+### Isolating the Domain
 
 In an object-oriented, UI, database, and other support code often gets written directly into the business objects. Additional business logic is embedded in the behavior of UI widgets and database scripts. This happens because it is the easiest way to make things work, in the short run.
 
@@ -83,7 +83,7 @@ Even if the team is given more time, the team members are likely to fail to mast
 
 Put all the business logic into the user interface. Chop the application into small functions and implement them as separate user interfaces, embedding the business rules into them. Use a relation database as a shared repository of the data. Use the most automated UI building and visual programming tools available.
 
-### Five. A Model Expressed in Software
+### A Model Expressed in Software
 
 #### Entities \(a.k.a. Reference Objects\)
 
@@ -123,7 +123,7 @@ Unless there is a real intention to distribute code on different servers, keep a
 
 Use packaging to separate the domain layer from other code. Otherwise, leave as much freedom as possible to the domain developers to package the domain objects in ways that support their model and design choices.
 
-### Six. The Life Cycle of a Domain Object
+### The Life Cycle of a Domain Object
 
 #### Aggregates
 
@@ -145,13 +145,9 @@ A subset of persistent objects must be globally accessible through a search base
 
 For each type of object that need global access, create an object that can provide the illusion of an in-memory collection of all objects of that type. Set up access through a well-known global interface. Provide methods to add and remove objects, which will encapsulate the actual insertion or removal of data in the data store. Provide methods that select objects based on some criteria and return fully instantiated objects or collections of objects whose attribute values meet the criteria, thereby encapsulating the actual storage and query technology. Provide REPOSITORIES only for AGGREGATE roots that actually need direct access. Keep the client focused on the model, delegating all object storage and access to the REPOSITORIES.
 
-### Seven. Using the Language: An Extended Example
+## Refactoring Toward Deeper Insight
 
-## III: Refactoring Toward Deeper Insight
-
-### Eight. Breakthrough
-
-### Nine. Making Implicit Concepts Explicit
+### Making Implicit Concepts Explicit
 
 Many transformations of domain models and the corresponding code happen when developers recognize a concept that has been hinted at in discussion or present implicitly in the design, and they then represent it explicitly in the model with one or more objects or relationships.
 
@@ -171,7 +167,7 @@ We might need to specify the state of an object for one or more of these three p
 2. To select an object from a collection \(**selection** or **querying**\).
 3. To specify the creation of a new object to fit some need \(**building to order** or **generating**\).
 
-### Ten. Supple Design
+### Supple Design
 
 #### Intention-Revealing Interfaces
 
@@ -213,9 +209,7 @@ Most interesting objects end up doing things that can't be characterized by prim
 
 Where it fits, define an operation whose return type is the same as the type of its argument\(s\). If the implementer has state that is used in the computation, then the implementer is effectively an argument of the operation, so the argument\(s\) and return value should be of the same type as the implementer. Such an operation is closed under the set of instances of that type. A closed operation provides a high-level interface without introducing any dependency on other concepts.
 
-### Eleven. Applying Analysis Patterns
-
-### Twelve. Relating Design Patterns to the Model
+### Relating Design Patterns to the Model
 
 #### Strategy \(a.k.a. Policy\)
 
@@ -229,11 +223,9 @@ When the relatedness of nested containers is not reflected in the model, common 
 
 Define an abstract type that encompasses all members of the COMPOSITE. Methods that return information are implemented on containers to return aggregated information about their contents. "Leaf" nodes implement those methods based on their own values. Clients deal with the abstract type and have no need to distinguish leaves from containers.
 
-### Thirteen. Refactoring Toward Deeper Insight
+## Strategic Design
 
-## IV: Strategic Design
-
-### Fourteen. Maintaining Model Integrity
+### Maintaining Model Integrity
 
 Total unification of the domain model for a large system will not be feasible or cost-effective.
 
@@ -305,7 +297,7 @@ Direct translation to and from the existing domain models may not be a good solu
 
 Use a well-documented shared language that can express the necessary domain information as a common medium of communication, translating as necessary into and out of that language.
 
-### Fifteen. Distillation
+### Distillation
 
 #### Core Domain
 
@@ -363,7 +355,7 @@ Identify the most fundamental concepts in the model and factor them into distinc
 
 Although a breakthrough to a deep model provides value anywhere it happens, it is in the CORE DOMAIN that it can change the trajectory of an entire project.
 
-### Sixteen. Large-Scale Structure
+### Large-Scale Structure
 
 In a large system without any overarching principle that allows elements to be interpreted in terms of their role in patterns that span the whole design, developers cannot see the forest for the trees.
 
