@@ -16,8 +16,6 @@ The utility of a model in DDD.
 * The model is the backbone of a language used by all team members.
 * The model is distilled knowledge.
 
-### Crunching Knowledge
-
 Ingredients of effective modelling.
 
 * Binding the model and the implementation.
