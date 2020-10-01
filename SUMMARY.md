@@ -27,8 +27,10 @@
 
 ## Other
 
-* [Text](other/text.md)
-* [Video](other/video.md)
-* [Graphics](other/graphics.md)
+* [Media](other/media/README.md)
+  * [Presentation](other/media/presentation.md)
+  * [Graphics](other/media/graphics.md)
+  * [Text](other/media/text.md)
+  * [Video](other/media/video.md)
 * [Awesome Personal Websites](other/awesome-personal-websites.md)
 

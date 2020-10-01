@@ -10,3 +10,7 @@
 
 {% embed url="https://sobolevn.me/" %}
 
+{% embed url="https://norvig.com/" %}
+
+
+
