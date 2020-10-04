@@ -14,6 +14,10 @@
 
 * [Domain-Driven Design](books/domain-driven-design.md)
 
+## Management
+
+* [Motivation](management/motivation.md)
+
 ## Programming
 
 * [Design](programming/design.md)
