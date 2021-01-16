@@ -12,6 +12,7 @@
 
 ## Books
 
+* [Out of the Crisis](books/out-of-the-crisis.md)
 * [Domain-Driven Design](books/domain-driven-design.md)
 
 ## Management
