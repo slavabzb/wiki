@@ -4,5 +4,7 @@
 
 {% embed url="https://sequencediagram.org/" %}
 
+{% embed url="https://12factor.net/" %}
+
 
 
