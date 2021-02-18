@@ -101,15 +101,179 @@ There are diseases and there are obstacles. The distinction is intended to be pa
 15. Inadequate testing of prototypes.
 16. "Anyone can comes to try to help us must understand all about our business."
 
-### When? How Long?
+### Questions to Help Managers
 
-Questions to Help Managers
+These questions may provide to management some basis to assist their understanding of their responsibilities.
 
-Quality and the Customer
+1. Has your company established constancy of purpose?
+   1. If yes, what is the purpose? If no, what are the obstacles?
+   2. Will this stated purpose stay fixed, or will it change as presidents come and go?
+   3. Do all employees of your company know about this stated constancy of purpose, if you have formulated one?
+   4. How many believe it to the extent that it affects their work?
+   5. Whom does your president answer to? Whom do your board of directors answer to?
+2. Where would you wish your business to be five years from now?
+   1. How do you think you will accomplish these aims? By what method?
+3. How may you learn whether, with respect to some quality-characteristic, you have a stable process or stable system?
+   1. If stable, where lies the main responsibility for further improvement? Why is it in this circumstance futile to plead with the plant manager, superintendents, division chiefs, and the work force, for better quality?
+   2. If not stable, what is different? What would be different about your attempt to accomplish improvement?
+4. Have you established teams to work on each of the 14 points, and on the deadly diseases and obstacles?
+   1. How are you doing on Point 14?
+   2. What are you doing to create teamwork between purchasing and production?
+5. Is absenteeism in your company a stable process?
+   1. How about fires?
+   2. How about accidents?
+   3. If yes, where lies the responsibility for improvement? \(Answer: with the management.\)
+6. Why is transformation of management necessary for survival?
+   1. Are you creating a critical mass of people to help you to change?
+   2. Why is this critical mass necessary?
+   3. Do all levels of your management take part in the new philosophy?
+   4. Can any of them initiate proposals for consideration? Do they?
+7. If you run a service organization:
+   1. What proportion of the people in your company knows that you have a product, that this product is service?
+   2. Does every employee know that he has a customer?
+   3. How do you define quality? How do you measure it?
+   4. Is your service better than it was a year ago? Why? How do you know?
+   5. \(If yes.\) Why is this?
+   6. Do you have more than one vendor for any item that you purchase repeatedly?
+   7. \(If yes.\) Why is this?
+   8. If you have one vendor for an item, do you have a long-term loyal relationship with him?
+   9. Is absenteeism at a stable rate?
+8. If you run a construction company:
+   1. Is your service to your customers better than it was two years ago?
+   2. In what way?
+   3. What have you done to try to improve it?
+9. What are you doing to create teamwork between:
+   1. design and production of product \(or service\)?
+   2. design and sales of product \(or service\)?
+   3. design and purchasing of product \(or service\)?
+10. What are you doing to close the gap between design of product and service, and actual production and delivery? In other words, what are you doing to improve test of your product and your service before you go into production and delivery?
+11. What steps are you taking to improve quality of:
+    1. incoming materials for production?
+    2. tools, machinery, and nonproductive items?
+    3. internal communications \(delivery of mail, papers, telephone, telegraph\)?
+12. Does your purchasing department stick to the lowest bidder? If yes, why? And what is this policy costing you?
+    1. Does cost of use come into consideration? How?
+13. What is your program for reduction in number of suppliers?
+    1. For four important items that you use on a regular basis, including commodities and transportation.
+    2. For each of these items, how many suppliers have you?
+    3. Now?
+    4. How many a year ago?
+    5. How many two years ago?
+    6. How many three years ago?
+    7. What is you program for developing long-term relationships of loyalty and trust with your suppliers \(including commodities and transportation\)?
+14. Do your people in management receive an annual performance rating? If yes, what are you doing to supplant this system with a better plan?
+15. Does your management know about the costs of engineering changes? What is the underlying cause of engineering changes? Do your engineers have time to do their work right in the first place? How are they rated? Do you see any problems with your system for rating your engineers? If yes, what are you planning to do about it?
+16. Does training and retraining in any operation in your company teach the requirements of the next operation?
+17. What proportion of your workers has a chance to understand the requirements of the next operation? Why does not everybody have an understanding of the next operation?
+18. How would you calculate the loss from failure of everyone to have a chance to understand  the requirements of the next operation? \(This is one of those unknown and unknowable figures – deadly disease No. 5\).
+19. What is your program for elimination of work-standards \(numbers, measured day work on the factory floor\), replacing them by competent knowledge and leadership?
+20. Do you manage by objective? If yes, how much is this mode of management costing you? Do you understand what is wrong with this practice? What are you doing to replace it with better management?
+    1. Do you manage by numbers \(require a man to improve productivity or sales by a specified amount, or to reduce scrap or payroll or expenses by some specified amount, such as 6 percent\)?
+    2. Show that a figure that is forced \(e.g. a requirement that the plant turns out 1200 items every day, or that a salesman is expected to take orders for $7200 per day\) is not an example of a stable system. It is either meshed like gears, or the figures are adjusted through fear to meet the requirement but nothing more.
+21. Are you changing supervision to leadership, at least in some areas of your organization?
+22. How do you select foremen? In other words, how do your foremen come to be foremen?
+    1. What do your foremen know about the job?
+    2. Do they know how to calculate who if anybody is in need of individual help, not part of the system?
+    3. Do they know how to calculate who is outstanding, not part of the system?
+23. What are your plans for elimination of:
+    1. piece work?
+    2. incentive pay?
+24. Would any good accrue to the morale of the people involved if the management send a letter every month to dealers that did more than the average amount of business that month?
+    1. How may you know which ones should receive commendation?
+    2. How may you know which ones are in need of special help or special direction of some kind?
+    3. What about letters to people that fall below the average?
+25. What is your plan and what are you doing about it for removal of barriers that rob the hourly worker of his pride of workmanship?
+26. Do you plaster your walls with goals and exhortations? If yes, what are you doing to supplant them with news about activity of your management to reduce the barriers that rob the hourly worker of his pride of workmanship?
+27. What steps are you taking to reduce paperwork?
+28. What steps are you taking to reduce to one the number of signatures required for travel vouchers, payment to vendors, etc.?
+    1. What steps are you taking to reimburse straightaway the traveler for expenses incurred?
+29. How much did you lose in the past year for mistakes in paperwork?
+30. What is your program for development of new product and new service for the future?
+    1. How do you plan to test your new designs or ideas?
+31. What do you know about the problems of your customers in the use of your products? What tests do you make of your products in service?
+    1. How do your customers see your product in relation to competitive products? How do you know? What data have you?
+    2. Why do they buy yours? How do you know? What data have you?
+    3. What problems or dissatisfaction do customers see in your competitors' products? How do you know? What data have you?
+32. Will your customers of today be your customers a year hence? Two years hence?
+33. Do your customers think that your product lives up to their expectations? What did your advertising and salesmen lead your customers to expect? More than you can deliver? How do you know?
+    1. \(If applicable.\) Are your customers satisfied with the service that you or your dealers provide? If yes, what is satisfactory about it? The quality of workmanship? The lag between your call and appearance of the serviceman? How do you know?
+34. How do you distinguish between your quality as your customer perceives it and quality as you plant manager and work force perceive it?
+    1. How does the quality of your product, as your customer sees it, agree with the quality that you intended to give him?
+35. Do you depend on complaints from customers to learn what is wrong with your product or service?
+    1. Do you depend on costs of warranty?
+36. Why is it that customers switch?
+    1. Where lies your main chance for profit \(Repeat customers.\)
+    2. What must you do to hold on to a customer?
+37. Who make the decisions about whether to buy your product?
+    1. What new design would serve better four years from now?
+38. What inspection or verification are you carrying out:
+    1. on incoming materials?
+    2. in process?
+    3. of final product?
+    4. \(Do not try to answer this question for every one of your products. Answer it for only three or four important products, or for three or four production lines.\)
+39. How reliable is your inspection at each of these points?
+    1. How do you know?
+    2. What data have you to show whether your inspectors are in line with each other?
+    3. What about your test instruments, or rather, your use of them? Can you present evidence of statistical control of the system of measurement or classification? Visually? Or by instrument?
+40. Where is inspection being carried out where no inspection would minimize total cost?
+    1. At which points are you carrying out no inspection where you ought to carry out 100 percent inspection to minimize costs?
+41. What records do you keep of these inspections? In what form? In the form of control charts or run charts? If not, why not?
+    1. What other use do you make of the records that you keep?
+    2. If you keep no records, why don't you?
+    3. If you keep no records at some point, why don't you cut the inspection there?
+42. How much material that goes into the production line is used in desperation by the production manager \(invariably with waste of material or rework or both\)? \(Try to answer the above question for two or three important production lines.\) How often do you encounter examples like the following?
+    1. Material that met the specifications but was not suited to the process or to the finished product.
+    2. Inspection of incoming materials was considered to be necessary, but inspection was hurried or skipped, owing to high vacuum on the production side.
+    3. How much incoming material turns out to be totally unusable in the judgement of the production managers? \(Again, answer this question only for two or tree important production lines.\)
+    4. What system have you for report and correction of these problems?
+43. What arrangements have you with your suppliers for receipt from them of evidence of statistical control, so that you may safely decrease inspection?
+    1. What cooperative work are you carrying on with your suppliers to make sure that you are both talking about the same kind of centimeter, and the same kind of test?
+44. What are you doing to make quality \(and productivity\) everybody's job, including management?
+    1. Do you know the loss that ensues from a defective item or product or from a mistake at any point along the line?
+45. Are you still using Military Standard 105D or Dodge-Roming plans for sale or for purchase of materials? Why?
+46. What proportion of your costs is chargeable to defects inherited from previous operations?
+47. What proportion of the troubles that you have with quality and productivity is the fault of \(i\) the production workers? \(ii\) the system \(management's responsibility\)? How do you know? \(Answer this question for three or four main items only.\)
+48. How much loss do you attribute to handling damage \(i\) along the production line? \(ii\) in packing, transportation, installation? What data have you on these problems? What are you doing about them?
+49. What are you doing to improve the training of new employees? What about retraining to keep up with new product and new procedures and new equipment?
+50. Why is it that every endeavor to put out a product or service is one of a kind? \(Once the plans are part way under action, subsequent changes are costly in time and money.\) There is accordingly little chance for improvement, once the original plans go into action.
+    1. Why is it that lessons for training for a job, or lessons for retraining for a new job, or lessons on the piano or on the violin, are one of a kind? \(A pupil once taught cannot be reconstructed.\)
+51. If you run a job shop:
+    1. Are your customers better satisfied now, one by one, than they were two years ago? Why?
+    2. How about materials and equipment? How many suppliers have you for any one type?
+    3. If more than one, why? What steps are you taking toward reduction?
+    4. How about maintenance of equipment: improving?
+    5. How about performance on the job?
+    6. How about your turnover rate?
+    7. What about repeated operations that do not change with the product: do you keep a running record and a control chart on some of them?
+    8. Are some of your problems stable? If yes, where lies the responsibility for improvement? \(With the management.\)
+52. Do your people that are engaged in training understand when an employee is trained and when he is not yet trained?
+    1. Do they know that they have only one chance? That an employee once trained cannot be helped by further training in the same procedures?
+53. Are you guilty of setting numerical goals on the factory floor for production?
+54. If you have a competent statistician in your company, are you taking maximum use of his knowledge and ability? Is he teaching statistical thinking to your management, engineers, chemists, physicists, production workers, foremen, supervisors, purchasing agents, in your department of commercial research and design of future product? Do you send him to statistical meetings? Is he working throughout your company to find problems and to find causes and results of corrective action? Is he working on all your problems of design, quality, procurement, specifications, testing of instruments? Does he have authority and responsibility to look anywhere in the company for problems, and to work on them? If not, why not?
+55. Are you trying to set up your statistical work in conformity with the best interests of the company?
+    1. If you have no competent statistician, what efforts are you putting forth to find one to help you with your problems of quality, productivity, procurements, redesign of product?
+56. Do you encourage self-improvement of your people? How? In what way?
+57. Do you have an educational program within the company?
+58. Do you provide information to your employees about courses in local schools?
+59. Do you run your company on visible figures alone?
+    1. If yes, why?
+    2. What steps are your management taking to learn the importance of figures unknown and unknowable?
+60. Does your company participate in committees of standardizing bodies?
+61. What is your company doing for the community?
+62. Do you rid yourself of problems with people on the factory floor by establishing EI groups \(Employee Involvement Groups\), EPG \(Employee Participation Groups\), QC-Circles, QWL \(Quality of Work Life\), and then leave them stranded with no participation of management?
+63. Are all activities in the company taking part in improvement? Are some lying dormant?
+    1. What steps are your taking to discover dormant areas, and to help them?
+64. What is your understanding of a stable system?
+    1. Has some annoying problem of quality or of low productivity stabilized? How do you know? Why were efforts to bring improvement so effective and encouraging at first? Why did quality level off toward a stable system?
+    2. If a process has stabilized, whose responsibility is it to invent and apply methods and changes for improvement? \(Answer: yours.\)
+65. Are you depending on EI \(Employee Involvement\), EPG \(Employee Participation Groups\), QWL \(Quality of Work Life\), QC-Circles, posters, exhortations, for quality, instead of doing your job?
+66. What are you doing about quality that you hope to provide to your customers four years from now?
+
+### Quality and the Customer
 
 Quality and Productivity in Service Organisations
 
-Some New Principles of Training and Leadership
+### Some New Principles of Training and Leadership
 
 Operational Definitions, Conformance, Performance
 
