@@ -271,11 +271,25 @@ These questions may provide to management some basis to assist their understandi
 
 ### Quality and the Customer
 
-Quality and Productivity in Service Organisations
+There are several faces of quality.
+
+1. Management's decision on specifications for the quality characteristics of parts, final product, performance, what service to offer now. The plant manager and all the people in production are concerned about the specifications of today. They have to know what their job is, now.
+2. Management's decision on whether to plan ahead for product or service of the future.
+3. The consumer's judgement of your product or service.
+
+For many kinds of product and service, the consumer's judgement may require a year or even several years for formation. The purchaser of a new automobile can give you in a year from the date of purchase a more useful evaluation of the quality of the automobile then he could when it was new.
 
 ### Some New Principles of Training and Leadership
 
-Operational Definitions, Conformance, Performance
+The aim of leadership should be to improve the performance of man and machine, to improve quality, to increase output, and simultaneously to bring pride of workmanship to people. Put in a negative way, the aim of leadership is not merely to find and record failures of men, but to remove the causes of failure: to help people to do a better job with less effort.
+
+A leader must learn by calculation wherever meaningful figures are at hand, or by judgement otherwise, who if any of his people lie outside the system on one side or the other, and hence are in need either of individual help or deserve recognition in some form.
+
+The leader also has responsibility to improve the system – i.e. to make it possible, on a continuing basis, for everybody to do a better job with greater satisfaction.
+
+A third responsibility is to accomplish ever greater and greater consistency of performance within the system, so that apparent differences between people continually diminish.
+
+### Operational Definitions, Conformance, Performance
 
 Standards and Regulations
 
