@@ -21,6 +21,8 @@
 
 ## Programming
 
+* [Performance](programming/performance/README.md)
+  * [Page Speed Optimization](programming/performance/page-speed-optimization.md)
 * [Telemetry](programming/telemetry.md)
 * [Design](programming/design.md)
 * [SOLID](programming/solid.md)
