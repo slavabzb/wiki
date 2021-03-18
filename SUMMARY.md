@@ -15,6 +15,10 @@
 * [Out of the Crisis](books/out-of-the-crisis.md)
 * [Domain-Driven Design](books/domain-driven-design.md)
 
+## Productivity
+
+* [Self](productivity/self.md)
+
 ## Management
 
 * [Projects](management/projects.md)
