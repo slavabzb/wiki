@@ -17,6 +17,7 @@
 
 ## Management
 
+* [Projects](management/projects.md)
 * [Motivation](management/motivation.md)
 
 ## Programming
