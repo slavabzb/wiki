@@ -291,6 +291,18 @@ A third responsibility is to accomplish ever greater and greater consistency of 
 
 ### Operational Definitions, Conformance, Performance
 
+In the opinion of many people in industry, there is nothing more important for transaction of business than use of operational definitions. It could also be said that no requirement of industry is so much neglected. One learns about operational definitions in colleges of liberal arts, in courses in philosophy and theory of knowledge, but hardly ever in schools of business or engineering in the United States. It could even be said that learning in physics, chemistry, and some natural sciences does not teach the philosophy of science.
+
+Meaning starts with the concept, which is in somebody's mind, and only there: it is ineffable. The only communicable meaning of any word, prescription, instruction, specification, measure, attribute, regulation, law, system, edict is the record of what happens on application of a specified operation or test.
+
+An operational definition puts communicable meaning into a concept. Adjectives like good, reliable, uniform, round, tired, safe, unsafe, unemployed have no communicable meaning until they are expressed in operational terms of sampling, test, and criterion. The concept of a definition is ineffable: it cannot be communicated to someone else. An operational definition is one that reasonable men can agree on.
+
+An operational definition is one that people can do business with. An operational definition of safe, round, reliable, or any other quality must be communicable, with the same meaning to vendor as to purchaser, same meaning yesterday and today to the production worker. Example:
+
+1. A specific test of a piece of material or an assembly.
+2. A criterion \(or criteria\) for judgment.
+3. Decision: yes or no, the object or the material did or did not meet the criterion \(or criteria\).
+
 Standards and Regulations
 
 Common Causes and Special Causes of Improvement. Stable System
@@ -301,7 +313,7 @@ Some Disappointments in Great Ideas
 
 Two Reports to Management
 
-Plan for Minimum Average Total Cost for Test of Incoming Materials and Final Product
+### Plan for Minimum Average Total Cost for Test of Incoming Materials and Final Product
 
 Organisation for Improvement of Quality and Productivity
 
