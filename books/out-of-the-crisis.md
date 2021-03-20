@@ -303,15 +303,62 @@ An operational definition is one that people can do business with. An operationa
 2. A criterion \(or criteria\) for judgment.
 3. Decision: yes or no, the object or the material did or did not meet the criterion \(or criteria\).
 
-Standards and Regulations
+### Standards and Regulations
 
-Common Causes and Special Causes of Improvement. Stable System
+A government regulation, and likewise an industrial standard, to be enforced, must have operational meaning. Conformance can be judged only in terms of a test and a criterion \(sometimes many tests and many criteria\). The criteria and tests must be in statistical terms to have a meaning. A regulation or standard that is not so expressed will be devoid of meaning. A regulation without meaning can have no legal force.
 
-More Examples of Improvement Downstream
+### Common Causes and Special Causes of Improvement. Stable System
 
-Some Disappointments in Great Ideas
+The central problem in management and in leadership is failure to understand the information in variation. He that possesses even a fuzzy understanding of it would understand the futility of the annual rating of performance of people as a basis for raises or for promotion. He would understand that the type of action required to reduce special causes of variation is totally different from the action required to reduce variation and faults from the system itself; would understand the capability of a process and of a system of measurement; would appreciate the necessity for statistical control of use of instruments and gauges; would understand that adjustment of an instrument to a standard should be carried out only on statistical evidence of stability of both instruments; would understand that leadership that takes aim at people that are below average in production, or above average in mistakes, is wrong, ineffective, costly to the company; that the same holds for a leader that supposes that everyone could be an achiever. He would understand why it is that costs decrease as quality improves. It is essential, however, in industry and in science to understand the distinction between a stable system and an unstable system, and how to plot points and conclude by rational methods whether they indicate a stable system. The points might show \(e.g.,\) weekly figures on sales, quality incoming and outgoing, complaints of customers, inventory, absenteeism, accidents, fires, accounts receivable, beneficial days.
 
-Two Reports to Management
+#### Special causes and common causes
+
+A fault in the interpretation of observations, seen everywhere, is to suppose that every event \(defect, mistake, accident\) is attributable to someone \(usually the one nearest at hand\), or is related to some special event. The fact is that the most troubles with service and production lie in the system.
+
+Most troubles and most possibilities for improvement add up to proportions something like this:
+
+* 94% belong to the system \(responsibility of management\),
+* 6% special.
+
+"We rely on our experience." The answer is self-incriminating: it is a guarantee that this company will continue to pile up about the same amount of trouble as in the past. Why should it change?
+
+Experience without theory teaches nothing. In fact, experience cannot even be recorded unless there is some theory, however crude, that leads to a hypothesis and a system by which to catalog observations. Sometimes only a hunch, right or wrong, is sufficient theory to lead to useful observation.
+
+#### What is the system?
+
+To people in management, the system consists of
+
+* Management, style of
+* Employees – management and everybody
+* The people in the country
+  * Their work experience
+  * Their education
+  * The unemployed
+* Government
+  * Taxes
+  * Reports
+  * Tariffs
+  * Impediments to trade and industry
+  * Requirements to fill positions by quota, not by competence
+  * Quotas for import and export
+* Foreign governments
+  * Quotas for import and export
+  * Manipulation of currency
+* Customers
+* Shareholders
+* Bank
+* Environmental constraints
+
+Management has much power and discretion, but cannot move all the earth. To the production worker, the system is all but him.
+
+There are two sources of loss from confusion of special causes with common causes of variation.
+
+1. Ascribe a variation or a mistake to a special cause when in fact the cause belongs to the system \(common causes\).
+2. Ascribe a variation or a mistake to the system \(common causes\) when in fact the cause was special.
+
+Overadjustment is a common example of mistake 1. Never doing anything to try to find a special cause is a common example of mistake 2.
+
+> People are part of the system; they need help.
 
 ### Plan for Minimum Average Total Cost for Test of Incoming Materials and Final Product
 
