@@ -358,13 +358,19 @@ There are two sources of loss from confusion of special causes with common cause
 
 Overadjustment is a common example of mistake 1. Never doing anything to try to find a special cause is a common example of mistake 2.
 
-> People are part of the system; they need help.
+People are part of the system; they need help.
 
-### Plan for Minimum Average Total Cost for Test of Incoming Materials and Final Product
+### Organisation for Improvement of Quality and Productivity
 
-Organisation for Improvement of Quality and Productivity
+The central problem in management, leadership, and production, is failure to understand the nature and interpretation of variation.
 
-Some Illustrations for Improvement of Living
+Efforts and methods for improvement of quality and productivity are in most companies and in most government agencies fragmented, with no overall competent guidance, no integrated system for continual improvement. Everyone, regardless of his job, needs a chance to learn and develop. In a climate of fragmentation, people go off in different directions, unaware of what other people are doing. They have no chance to work to the best advantage of the company not with themselves, and little chance to develop.
 
-Transformation in Japan
+### Transformation in Japan
+
+The whole world is familiar with the miracle of Japan, and knows that the miracle started off with a concussion in 1950. Before that time, the quality of Japanese consumer goods had earned around the world a reputation for being shoddy and cheap. Yet anyone in our Navy will testify that the Japanese knew what quality is. They simply had not yet bent their efforts toward quality in international trade.
+
+Suddenly, Japanese quality and dependability turned upward in 1950 and by 1954 had captured markets the world over. The new economic age had begun. What happened?
+
+The answer is that top management became convinced that quality was vital for export, and that they could accomplish the switch. They learned, in conference after conference, something about their responsibilities for the achievement of this aim, and that they must take the lead in this aim. Management and factory workers put their forces together for quality and jobs.
 
