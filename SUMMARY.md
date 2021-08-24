@@ -14,6 +14,7 @@
 
 * [Out of the Crisis](books/out-of-the-crisis.md)
 * [Domain-Driven Design](books/domain-driven-design.md)
+* [The Happiness Advantage](books/the-happiness-advantage.md)
 
 ## Productivity
 
