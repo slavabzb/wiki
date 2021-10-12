@@ -1,6 +1,6 @@
 # Table of contents
 
-* [My Wiki](README.md)
+* [Hi!](README.md)
 
 ## Team
 
@@ -48,4 +48,3 @@
   * [Text](other/media/text.md)
   * [Video](other/media/video.md)
 * [Awesome Personal Websites](other/awesome-personal-websites.md)
-

@@ -10,9 +10,8 @@
 ### The Meeting Format
 
 * **Intro**. The more the team is distributed, the longer this stage.
-* **Checking** \(metrics, tasks progress, etc.\). The questions are allowed, but no discussion. When the holy war begins, the facilitator suggests to discuss it outside this meeting \(another meeting with concrete agenda\).
+* **Checking** (metrics, tasks progress, etc.). The questions are allowed, but no discussion. When the holy war begins, the facilitator suggests to discuss it outside this meeting (another meeting with concrete agenda).
 * **Browse agenda subjects**. The facilitator asks the owner of the subject what she wants.
 * Each agenda subject is relevant for the whole team. Otherwise the facilitator suggests to discuss it outside this meeting.
 * The meeting is time bounded. The number of subjects determines the time for discussion of one subject. It will make the meeting more dynamic.
 * **Conclusion** and **exit**.
-

@@ -4,7 +4,7 @@
 
 An easy to use load testing tool which generates beautiful reports.
 
-```text
+```
 Summary:
   Total:    1200.0304 secs
   Slowest:    2.0342 secs
@@ -49,4 +49,3 @@ Status code distribution:
   [200]    646439 responses
   [502]    100308 responses
 ```
-

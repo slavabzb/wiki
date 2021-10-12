@@ -28,7 +28,7 @@ Ingredients of effective modelling.
 
 A project faces serious problems when its language is fractured. Domain experts use their jargon while technical team have their own language tuned for discussing the domain in terms of design.
 
-The terminology of day-to-day discussions is disconnected from the terminology embedded in the code \(ultimately the most important product of a software project\). And even the same person uses different language in speech and in writing, so that the most incisive expressions of the domain often emerge in a transient form that is never captured in the code or even in writing.
+The terminology of day-to-day discussions is disconnected from the terminology embedded in the code (ultimately the most important product of a software project). And even the same person uses different language in speech and in writing, so that the most incisive expressions of the domain often emerge in a transient form that is never captured in the code or even in writing.
 
 Translation blunts communication and makes knowledge crunching anemic.
 
@@ -66,16 +66,16 @@ In an object-oriented, UI, database, and other support code often gets written d
 
 When the domain-related code is diffused through such a large amount of other code, it becomes extremely difficult to see and to reason about. Superficial changes to the UI can actually change business logic. To change a business rule may require meticulous tracing of UI code, database code, or other program elements. Implementing coherent, model-driven objects becomes impractical. Automated testing is awkward. With all the technologies and logic involved in each activity, a program must be kept very simple or it becomes impossible to understand.
 
-* **User Interface \(or Presentation Layer\)** – Responsible for showing information to the user and interpreting the user's commands. The external actor might sometimes be another computer system rather than a human user.
+* **User Interface (or Presentation Layer)** – Responsible for showing information to the user and interpreting the user's commands. The external actor might sometimes be another computer system rather than a human user.
 * **Application Layer** – Defines the jobs the software is supposed to do and directs the expressive domain objects to work out problems. The tasks this layer is responsible for are meaningful to the business or necessary for interaction with the application layers or other systems. This layer is kept thin. It does not contain business rules or knowledge, but only coordinates tasks and delegates work to collaborations of domain objects in the next layer down. It does not have state reflecting the business situation, but it can have state that reflects the progress of a task for the user or the program.
-* **Domain Layer \(or Model Layer\)** – Responsible for representing concepts of the business, information about the business situation, and business rules. State that reflects the business situation is controlled and used here, even though the technical details of storing  it are delegated to the infrastructure. _This layer is the heart of business software._
+* **Domain Layer (or Model Layer)** – Responsible for representing concepts of the business, information about the business situation, and business rules. State that reflects the business situation is controlled and used here, even though the technical details of storing  it are delegated to the infrastructure. _This layer is the heart of business software._
 * **Infrastructure Layer** – Provides generic technical capabilities that support the higher layers: message sending for the application, persistence for the domain, drawing widgets for the UI, and so on. The infrastructure layer may also support the pattern of interactions between the four layers through an architectural framework.
 
 Partition a complex program into layers. Develop a design within each layer that is cohesive and that depends only on the layers below. Follow standard architectural patters to provide loose coupling to the layers above. Concentrate all the code related to the domain model in one layer and isolate it from the user interface, application, and infrastructure code. The domain objects, free of the responsibility of displaying themselves, storing themselves, managing application tasks, and so forth, can be focused on expressing the domain model. This allows a model to evolve to be rich enough and clear enough to capture essential business knowledge and put it to work.
 
 #### The Smart UI "Anti-Pattern"
 
-If an unsophisticated team with a simple project decides to try a MODEL-DRIVEN DESIGN with LAYERED ARCHITECTURE, it will face a difficult learning curve. Team members will have to master complex new technologies and stumble through the process of learning object modelling \(which is challenging, even with the help of this book!\). The overhead of managing infrastructure and layers makes very simple tasks take longer. Simple projects come with short time lines and modest expectations. Long before the team completes the assigned task, much less demonstrates the exciting possibilities of its approach, the project will have been cancelled.
+If an unsophisticated team with a simple project decides to try a MODEL-DRIVEN DESIGN with LAYERED ARCHITECTURE, it will face a difficult learning curve. Team members will have to master complex new technologies and stumble through the process of learning object modelling (which is challenging, even with the help of this book!). The overhead of managing infrastructure and layers makes very simple tasks take longer. Simple projects come with short time lines and modest expectations. Long before the team completes the assigned task, much less demonstrates the exciting possibilities of its approach, the project will have been cancelled.
 
 Even if the team is given more time, the team members are likely to fail to master the techniques without expert help. And in the end, if they do surmount these challenges, they will have produced a simple system. Rich capabilities were never requested.
 
@@ -83,7 +83,7 @@ Put all the business logic into the user interface. Chop the application into sm
 
 ### A Model Expressed in Software
 
-#### Entities \(a.k.a. Reference Objects\)
+#### Entities (a.k.a. Reference Objects)
 
 Some objects are not defined primarily by their attributes. They represent a thread of identity that runs through time and often across distinct representations. Sometimes such an object must be matched with another object even though attributes differ. An object must be distinguished from the other objects even though they might have the same attributes. Mistaken identity can lead to data corruption.
 
@@ -105,11 +105,11 @@ Some concepts from the domain aren't natural to model as objects. Forcing the re
 
 When a significant process or transformation in the domain is not a natural responsibility of an ENTITY or VALUE OBJECT, add an operation to the model as a standalone interface declared as a SERVICE. Define the interface in terms of the language of the model and make sure the operation name is part of the UBIQUITOUS LANGUAGE. Make the SERVICE stateless.
 
-#### Modules \(a.k.a. Packages\)
+#### Modules (a.k.a. Packages)
 
 Everyone uses MODULES, but few treat them as a full-fledget part of the model. Code gets broken down into all sorts of categories, from aspects of the technical architecture to developers' work assignments. Even developers who refactor a lot tend to content themselves with MODULES conceived early in the project.
 
-It is a truism that there should be low coupling between MODULES and high cohesion within them. Explanations of coupling and cohesion tend to make them sound like technical metrics, to be judget mechanically based on the distributions of associations and interactions. Yet it isn't just code being divided into MODULES, but concepts. There is a limit to how many things a person can think about at once \(hence low coupling\). Incoherent fragments of ideas are as hard to understand as an undifferentiated soup of ideas \(hence high cohesion\).
+It is a truism that there should be low coupling between MODULES and high cohesion within them. Explanations of coupling and cohesion tend to make them sound like technical metrics, to be judget mechanically based on the distributions of associations and interactions. Yet it isn't just code being divided into MODULES, but concepts. There is a limit to how many things a person can think about at once (hence low coupling). Incoherent fragments of ideas are as hard to understand as an undifferentiated soup of ideas (hence high cohesion).
 
 Choose MODULES that tell the story of the system and contain a cohesive set of concepts. This often yields low coupling between MODULES, but if it doesn't, look for a way to change the model to disentangle the concepts, or search for an overlooked concept that might be the basis of a MODULE that would bring the elements together in a meaningful way. Seek low coupling in the sense of concepts that can be understood and reasoned about independently of each other. Refine the model until it partitions according to high-level domain concepts and the corresponding code is decoupled as well.
 
@@ -149,7 +149,7 @@ For each type of object that need global access, create an object that can provi
 
 Many transformations of domain models and the corresponding code happen when developers recognize a concept that has been hinted at in discussion or present implicitly in the design, and they then represent it explicitly in the model with one or more objects or relationships.
 
-Listen to the language the domain experts use. Are there terms that succinctly state something complicated? Are they correcting your word choice \(perhaps diplomatically\)? Do the puzzled looks on their faces go away when you use a particular phrase? These are hints of a concept that might benefit the model.
+Listen to the language the domain experts use. Are there terms that succinctly state something complicated? Are they correcting your word choice (perhaps diplomatically)? Do the puzzled looks on their faces go away when you use a particular phrase? These are hints of a concept that might benefit the model.
 
 #### Specification
 
@@ -161,9 +161,9 @@ Create explicit predicate-like VALUE OBJECTS for specialized purposes. A SPECIFI
 
 We might need to specify the state of an object for one or more of these three purposes.
 
-1. To validate an object to see if it fulfills some need or is ready for some purpose \(**validation**\).
-2. To select an object from a collection \(**selection** or **querying**\).
-3. To specify the creation of a new object to fit some need \(**building to order** or **generating**\).
+1. To validate an object to see if it fulfills some need or is ready for some purpose (**validation**).
+2. To select an object from a collection (**selection** or **querying**).
+3. To specify the creation of a new object to fit some need (**building to order **or **generating**).
 
 ### Supple Design
 
@@ -177,7 +177,7 @@ Name classes and operations to describe their effect and purpose, without refere
 
 Interactions of multiple rules or compositions of calculations become extremely difficult to predict. The developer calling an operation must understand its implementation and the implementation of all its delegations in order to anticipate the result. The usefulness of any abstraction of interfaces is limited if the developers are forced to pierce the veil. Without safely predictable abstractions, the developers must limit the combinatory explosion, placing a low ceiling on the richness of behaviour that is feasible to build.
 
-Place as much of the logic of the program as possible into functions, operations that return results with no observable side effects. Strictly segregate commands \(methods that result in modifications to observable state\) into very simple operations that do not return domain information. Further control side effects by moving complex logic into VALUE OBJECTS when a concept fitting the responsibility presents itself.
+Place as much of the logic of the program as possible into functions, operations that return results with no observable side effects. Strictly segregate commands (methods that result in modifications to observable state) into very simple operations that do not return domain information. Further control side effects by moving complex logic into VALUE OBJECTS when a concept fitting the responsibility presents itself.
 
 #### Assertions
 
@@ -193,7 +193,7 @@ When elements of a model or design are embedded in a monolithic construct, their
 
 On the other hand, breaking down classes and methods can pointlessly complicate the client, forcing client objects to understand how tiny pieces fit together. Worse, a concept can be lost completely. Half of a uranium atom is not uranium. And of course, it isn't just grain size that counts, but just where the grain runs.
 
-Decompose design elements \(operations, interfaces, classes, and AGGREGATES\) into cohesive units, taking into consideration your intuition of the important divisions in the domain. Observe the axes of change and stability through successive refactorings and look for the underlying CONCEPTUAL CONTOURS that explain these shearing patterns. Align the model with the consistent aspects of the domain that make it a viable area of knowledge in the first place.
+Decompose design elements (operations, interfaces, classes, and AGGREGATES) into cohesive units, taking into consideration your intuition of the important divisions in the domain. Observe the axes of change and stability through successive refactorings and look for the underlying CONCEPTUAL CONTOURS that explain these shearing patterns. Align the model with the consistent aspects of the domain that make it a viable area of knowledge in the first place.
 
 #### Standalone Classes
 
@@ -205,11 +205,11 @@ Low coupling is fundamental to object design. When you can, go all the way. Elim
 
 Most interesting objects end up doing things that can't be characterized by primitives alone.
 
-Where it fits, define an operation whose return type is the same as the type of its argument\(s\). If the implementer has state that is used in the computation, then the implementer is effectively an argument of the operation, so the argument\(s\) and return value should be of the same type as the implementer. Such an operation is closed under the set of instances of that type. A closed operation provides a high-level interface without introducing any dependency on other concepts.
+Where it fits, define an operation whose return type is the same as the type of its argument(s). If the implementer has state that is used in the computation, then the implementer is effectively an argument of the operation, so the argument(s) and return value should be of the same type as the implementer. Such an operation is closed under the set of instances of that type. A closed operation provides a high-level interface without introducing any dependency on other concepts.
 
 ### Relating Design Patterns to the Model
 
-#### Strategy \(a.k.a. Policy\)
+#### Strategy (a.k.a. Policy)
 
 Domain models contain processes that are not technically motivated but actually meaningful in the problem domain. When alternative processes must be provided, the complexity of choosing the appropriate process combines with the complexity of the multiple processes themselves, and things get out of hand.
 
@@ -217,7 +217,7 @@ Factor the varying part of a process into a separate "strategy" object in the mo
 
 #### Composite
 
-When the relatedness of nested containers is not reflected in the model, common behavoir has to be duplicated at each level of the hierarchy, and nesting is rigid \(for example, containers can't usually contain other containers at their own level, and the number of levels is fixed\). Clients must deal with different levels of the hierarchy through different interfaces, even though there may be no conceptual difference they care about. Recursion through the hierarchy to produce aggregated information is very complicated.
+When the relatedness of nested containers is not reflected in the model, common behavoir has to be duplicated at each level of the hierarchy, and nesting is rigid (for example, containers can't usually contain other containers at their own level, and the number of levels is fixed). Clients must deal with different levels of the hierarchy through different interfaces, even though there may be no conceptual difference they care about. Recursion through the hierarchy to produce aggregated information is very complicated.
 
 Define an abstract type that encompasses all members of the COMPOSITE. Methods that return information are implemented on containers to return aggregated information about their contents. "Leaf" nodes implement those methods based on their own values. Clients deal with the abstract type and have no need to distinguish leaves from containers.
 
@@ -313,13 +313,13 @@ Some parts of the model add complexity without capturing or communicating specia
 
 Identify cohesive subdomains that are not the motivation for your project. Factor out generic models of these subdomains and place them in separate MODULES. Leave no trace of your specialties in them.
 
-Once they have been separated, give their continuing development lower priority than the CORE DOMAIN, and avoid assigning your core developers to the tasks \(because they will gain little domain knowledge from them\). Also consider off-the-shelf solutions or published models for these GENERIC SUBDOMAINS.
+Once they have been separated, give their continuing development lower priority than the CORE DOMAIN, and avoid assigning your core developers to the tasks (because they will gain little domain knowledge from them). Also consider off-the-shelf solutions or published models for these GENERIC SUBDOMAINS.
 
 #### Domain Vision Statement
 
 At the beginning of a project, the model usually doesn't even exist, yet the need to focus its development is already there. In later stages of development, there is a need for an explanation of the value of the system that does not require an in-depth study of the model. Also, the critical aspects of the domain model may span multiple BOUNDED CONTEXTS, but by definition these distinct models can't be structured to show their common focus.
 
-Write a short description \(about one page\) of the CORE DOMAIN and the value it will bring, the "value proposition". Ignore those aspects that do not distinguish this domain model from others. Show how the domain model serves and balances diverse interests. Keep it narrow. Write this statement early and revise it as you gain new insight.
+Write a short description (about one page) of the CORE DOMAIN and the value it will bring, the "value proposition". Ignore those aspects that do not distinguish this domain model from others. Show how the domain model serves and balances diverse interests. Keep it narrow. Write this statement early and revise it as you gain new insight.
 
 #### Highlighted Core
 
@@ -327,7 +327,7 @@ Even though team members may know broadly what constitutes the CORE DOMAIN, diff
 
 Significant structural changes to the code are the ideal way of identifying the CORE DOMAIN, but they are not always practical in the short term. In fact, such major code changes are difficult to undertake without the very view the team is lacking.
 
-* **The Distillation Document** – Write a very brief document \(three to seven sparse pages\) that describes the CORE DOMAIN and the primary interactions among core elements.
+* **The Distillation Document** – Write a very brief document (three to seven sparse pages) that describes the CORE DOMAIN and the primary interactions among core elements.
 * **The Flagged Core** – Flag each element of the CORE DOMAIN within the primary repository of the model, without particularly trying to elucidate its role. Make it effortless for a developer to know what is in or out of the CORE.
 * **The Distillation Document as Process Tool** – If the distillation document outlines the essentials of the CORE DOMAIN, then it serves as a practical indicator of the significance of a model change. When a model or code change affects the distillation document, it requires consultation with other team members. When the change is made, it requires immediate notification of all team members, and the dissemination of a new version of the document. Changes outside the CORE or to details not included in the distillation document can be integrated without consultation or notification and will be encountered by other members in the course of their work. Then the developers have the full autonomy that XP suggests.
 
@@ -335,13 +335,13 @@ Significant structural changes to the code are the ideal way of identifying the 
 
 Computations sometimes reach a level of complexity that begins to bloat the design. The conceptual "what" is swamped by the mechanistic "how". A large number of methods that provide algorithms for resolving the problem obscure the methods that express the problem.
 
-Partition a conceptually COHESION MECHANISM into a separate lightweight framework. Particularly watch for formalisms or well-documented categories of algorithms. Expose the capabilities of the framework with an INTENTION-REVEALING INTERFACE. Now the other elements of the domain can focus on expressing the problem \("what"\), delegating the intricacies of the solution \("how"\) to the framework.
+Partition a conceptually COHESION MECHANISM into a separate lightweight framework. Particularly watch for formalisms or well-documented categories of algorithms. Expose the capabilities of the framework with an INTENTION-REVEALING INTERFACE. Now the other elements of the domain can focus on expressing the problem ("what"), delegating the intricacies of the solution ("how") to the framework.
 
 #### Segregated Core
 
 Elements in the model may partially serve the CORE DOMAIN and partially play supporting roles. CORE elements may be tightly coupled to generic ones. The conceptual cohesion of the CORE may not be strong or visible. All this clutter and entanglement chokes the CORE. Designers can't clearly see the most important relationships, leading to a weak design.
 
-Refactor the model to separate the CORE concepts from supporting players \(including ill-defined ones\) and strengthen the cohesion of the CORE while reducing its coupling to other code. Factor all generic or supporting elements into other objects and place them into other packages, even if this means refactoring the model in ways that separate highly coupled elements.
+Refactor the model to separate the CORE concepts from supporting players (including ill-defined ones) and strengthen the cohesion of the CORE while reducing its coupling to other code. Factor all generic or supporting elements into other objects and place them into other packages, even if this means refactoring the model in ways that separate highly coupled elements.
 
 #### Abstract Core
 
@@ -390,4 +390,3 @@ Create a distinct set of objects that can be used to describe and constrain the 
 When a variety of applications have to interoperate, all based on the same abstractions but designed independently, translations between multiple BOUNDED CONTEXTS limit integration. A SHARED KERNEL is not feasible for teams that do not work closely together. Duplication and fragmentation raise costs for development and installation, and interoperability becomes very difficult.
 
 Distill an ABSTRACT CORE of interfaces and interactions and create a framework that allows diverse implementations of those interfaces to be freely substituted. Likewise, allow any application to use those components, so long as it operates strictly through the interfaces of the ABSTRACT CORE.
-

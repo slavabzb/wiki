@@ -1,4 +1,3 @@
 # Database
 
-{% embed url="https://www.dbdesigner.net/" caption="" %}
-
+{% embed url="https://www.dbdesigner.net/" %}

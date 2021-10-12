@@ -9,4 +9,3 @@ Basic principle in remote team management – everything is the same, but the fa
 ## The Strength of the Team
 
 As a manager, you have the strength of the team. One believes that this is all impossible. You ask who thinks this is possible. And now he is opposing not you, but the team, and you are just regulating this process.
-

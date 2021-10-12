@@ -6,5 +6,3 @@
 
 {% embed url="https://12factor.net/" %}
 
-
-

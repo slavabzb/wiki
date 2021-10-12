@@ -9,9 +9,9 @@
 * If the team is inert and silent, you should be the person who asks.
 * Agree to expectations from each role.
 
-## Agree on a Goal \(20 mins\)
+## Agree on a Goal (20 mins)
 
-* What's your goal \(for the near future\)?
+* What's your goal (for the near future)?
 * How does it match with our team goals?
 * How this project will develop you?
 * How this project can help you rich your goal?
@@ -29,5 +29,4 @@
 
 Ask him what went wrong.
 
-> Hey, you want to help the team, but it seems different to me. In the meetings you say this and that, but then actually do something opposite. How does it seem to you? Do you want the truth? \[You manipulate here and then tell how the things actually are.\]
-
+> Hey, you want to help the team, but it seems different to me. In the meetings you say this and that, but then actually do something opposite. How does it seem to you? Do you want the truth? \[You manipulate here and then tell how the things actually are.]
