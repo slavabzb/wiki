@@ -22,6 +22,7 @@
 
 ## Management
 
+* [GROW](management/grow.md)
 * [Projects](management/projects.md)
 * [Motivation](management/motivation.md)
 
