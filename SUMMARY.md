@@ -29,6 +29,7 @@
 
 ## Programming
 
+* [Russian Python Week](programming/russian-python-week.md)
 * [Performance](programming/performance/README.md)
   * [Page Speed Optimization](programming/performance/page-speed-optimization.md)
 * [Telemetry](programming/telemetry.md)
