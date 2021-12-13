@@ -42,6 +42,7 @@
 * [Idempotency](programming/idempotency.md)
 * [Load Testing](programming/load-testing/README.md)
   * [Hey](programming/load-testing/hey.md)
+* [Other](programming/other.md)
 
 ## Other
 
