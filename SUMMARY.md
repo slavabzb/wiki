@@ -47,6 +47,7 @@
 
 ## Other
 
+* [Money](other/money.md)
 * [Sport](other/sport.md)
 * [Media](other/media/README.md)
   * [Presentation](other/media/presentation.md)
