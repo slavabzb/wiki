@@ -22,6 +22,7 @@
 
 ## Management
 
+* [Team](management/team.md)
 * [Leadership](management/leadership.md)
 * [GROW](management/grow.md)
 * [Projects](management/projects.md)
